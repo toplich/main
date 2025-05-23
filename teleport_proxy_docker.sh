@@ -6,7 +6,7 @@ TOKEN=""
 
 NODE_NAME="proxy-${HOSTNAME}"
 BASE_DIR="$HOME/teleport"
-DOCKER_IMAGE="public.ecr.aws/gravitational/teleport:${TELEPORT_VERSION}"
+DOCKER_IMAGE="public.ecr.aws/gravitational/teleport-distroless:${TELEPORT_VERSION}"
 
 mkdir -p "$BASE_DIR/config $BASE_DIR/data"
 
